@@ -60,4 +60,18 @@ func main() {
 	default:
 		fmt.Println("Too far away")
 	}
+
+	fmt.Println("What time is it now?")
+	timeNow := time.Now()
+	switch {
+	case timeNow.Hour() < 12:
+		fmt.Println("Good Morning, the hour is", timeNow.Hour(), "AM")
+	case timeNow.Hour() < 17:
+		fmt.Println("Good afternoon, the hour is", (timeNow.Hour() - 12), "PM")
+	default:
+		fmt.Println("Good night, the time is", (timeNow.Hour() - 12), "PM")
+	}
+	fmt.Println(timeNow.Minute())
+	fmt.Println(timeNow.Hour())
+	fmt.Println(timeNow.Month())
 }
