@@ -22,3 +22,9 @@ Golang is mainly used in the terminal through server-side rendering. Once Goland
 1. Where is Go executed in the development of an application?
 2. Where is Go heavily utilized?
 3. How do you execute a function in Go?
+
+#### Overview
+
+I decided to learn Go today because I have a friend who uses that at her job with microservices and I was interested to find out what she did and how she used it. It is a bit confusing because it is only a server-side langauge and the syntax is a bit different than what we have used recently.
+
+I'd really like to see the code for an application built with Go and how it interacts with all aspects of an application.
