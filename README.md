@@ -16,3 +16,9 @@ If you want to execute Go and you change the syntax you need to run ```go build`
 
 ### Using Golang
 Golang is mainly used in the terminal through server-side rendering. Once Goland is built it can be executed in ther terminal, similar to executing code with node.js.
+
+### Golang Interview Questions
+
+1. Where is Go executed in the development of an application?
+2. Where is Go heavily utilized?
+3. How do you execute a function in Go?
